@@ -11,7 +11,7 @@ module.exports = function loader(input) {
         return `
     import { ref, h } from 'vue'
     import scriptCode from 'data:application/javascript;base64,${btoa(scriptContent)}'
-export default {render:function(){return ${parsed2.compileJSVue()}}, ...scriptCode}
+export default {render:function(variables){return ${parsed2.compileJSVue()}}, ...scriptCode}
 `;
     } else {
         let code = parsed.compileJSVue();
