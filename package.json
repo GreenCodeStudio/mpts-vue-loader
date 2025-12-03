@@ -1,6 +1,6 @@
 {
   "name": "mpts-vue-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Webpack loader for MPTS used as Vue component",
   "main": "src/index.js",
   "repository": "https://github.com/GreenCodeStudio/mpts-vue-loader",
